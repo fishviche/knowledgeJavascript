@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric figures</title>
+</head>
+<body>
+    <h1>
+        Area and Perimeter Calculator
+    </h1>
+    <!-- For calculate perimeter and area of square -->
+    <h2>
+        Square
+    </h2>
+    <form>
+        <label for="">
+            Enter the side:
+            <input id="sideSquare" type="number" placeholder="Side"/>
+
+        </label>
+        <button onclick="getPerimeterSquare()">
+            Perimeter
+        </button>
+        <button onclick="getAreaSquare()">
+            Area
+        </button>
+    </form>
+
+    <!-- For calculate perimeter and ara of triangle -->
+    <h2>
+        Triangle
+    </h2>
+    <form>
+        <label for="">
+            Enter the side A:
+            <input id="sideTriangleA" type="number" placeholder="Side A"/>
+        </label>
+        <label for="">
+            Enter the side B:
+            <input id="sideTriangleB" type="number" placeholder="Side B"/>
+        </label>
+        <label for="">
+            Enter the Base:
+            <input id="baseTriangle" type="number" placeholder="Base"/>
+        </label>
+        <label for="">
+            Enter the Height:
+            <input id="heightTriangle" type="number" placeholder="Height"/>
+        </label>
+        <button onclick="getPerimeterTriangle()">
+            Perimeter
+        </button>
+        <button onclick="getAreaTriangle()">
+            Area
+        </button>
+    </form>
+
+    <!-- For calculate perimeter and ara of circle -->
+    <h2>
+        Triangle
+    </h2>
+    <form>
+        <label for="">
+            Enter the radius:
+            <input id="radiusCircle" type="number" placeholder="Radius"/>
+
+        </label>
+        <button onclick="getPerimeterCircle()">
+            Perimeter
+        </button>
+        <button onclick="getAreaCircle()">
+            Area
+        </button>
+    </form>
+
+
+    <script src="/calculoSimples.js"></script>
+</body>
+</html>
